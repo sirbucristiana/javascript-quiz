@@ -1,0 +1,13 @@
+#highScoresList {
+    list-style: none;
+    margin-bottom: 15px;
+    
+}
+
+
+
+.high-score {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}

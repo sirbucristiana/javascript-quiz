@@ -1,0 +1,41 @@
+
+
+.choice-container{
+    display: flex;
+    margin-bottom: 13px;
+    width: 100%;
+    border-radius: 4px;
+    background:#959376;
+    font-size: 48px;
+    min-width: 1280px;
+}
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 6px 23px 0 #63624f;
+    transform: scale(1.02);
+    transition: transform 100ms;
+}
+
+.choice-prefix {
+    padding: 32px 36px;
+    color: white;
+}
+
+.choice-text {
+    padding: 32px;
+    width: 100%;
+}
+
+.correct {
+    background: #589947;
+}
+.incorrect {
+    background: #a33030;
+}
+
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 640px;
+    }
+}
+
