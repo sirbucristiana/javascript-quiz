@@ -36,7 +36,7 @@ let questions = [
         answer: 2,
     },
     {
-        question: 'In Spectre (2015), which character visits James Bond in his London appartment?',
+        question: 'In Spectre (2015), which character visits James Bond in his London apartment?',
         choice1: 'Gareth Mallory',
         choice2: 'Estrella',
         choice3: 'Eve Moneypenny',
